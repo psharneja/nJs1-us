@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 2
+  domain: mybluemix.net
+  name: nJs1-us
+  host: njs
+  disk_quota: 1024M
+  services:
+  - Ustream-3r
